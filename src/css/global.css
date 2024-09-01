@@ -1,0 +1,40 @@
+@import url("./reset.css");
+
+/* 変数の宣言など */
+:root {
+  /* サイトのテーマカラー */
+  --main-color: #399;
+
+  /* サイトのサブカラー */
+  --sub-color: #61e;
+}
+
+/* 以下、サイト全体のスタイル設定 */
+html {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    "Segoe UI",
+    "Helvetica Neue",
+    HelveticaNeue,
+    YuGothic,
+    "Yu Gothic Medium",
+    "Yu Gothic",
+    Verdana,
+    Meiryo,
+    sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #444;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+h2 {
+  color: var(--sub-color);
+}
